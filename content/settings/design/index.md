@@ -1,7 +1,7 @@
 +++
 headless = true
-icon = "/img/default-favicon.png"
+icon = "/media/star-comic-icon-vector-25462794.jpg"
 logo = "/img/default-logo.png"
-image = "/img/default-image.jpg"
+image = "/media/images.jpeg"
 color = "#5a4ae3"
 +++
