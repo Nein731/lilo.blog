@@ -1,31 +1,49 @@
 +++
-title = "Example Post"
-date = "2023-01-01"
-draft = false
+title = "Ohne Gehör, aber mit Stimme: Ein Gehörloser über die Arbeitswelt in der Schweiz"
+date = "2025-02-18"
+draft = true
 pinned = false
-tags = [ "Lilo", "Example" ]
-image = "/img/default-image.jpg"
+tags = ["Lilo", "Example"]
+image = "https://www.instagram.com/p/DBjD0DzK7fB/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
 description = "In diesem Artikel werden Möglichkeiten aufgezeigt für das Verfassen von Blogeinträgen."
 footnotes = "In der Fusszeile können zum Beispiel Bildquellen angegeben werden. Dieser Text ist abgetrennt durch eine Linie und etwas kleiner."
 +++
-
 {{<lead>}}
-In diesem Artikel werden Möglichkeiten aufgezeigt für das Verfassen von Blogeinträgen.
+**Stellen Sie sich vor, Sie leben in einer Welt voll mit Worten – doch keines davon können Sie aussprechen oder verstehen. Unser heutiger Gesprächspartner Christian kennt diese Realität von Geburt an. Wie erlebt er die Arbeitswelt als stummer Mensch? Dieses Interview bietet einen Einblick in seine lautlose aber keinesfalls stille Welt.**
 {{</lead>}}
 
 Tipp: Um diesen Blogartikel zu behalten, ohne ihn zu löschen, kann man den **Entwurfsmodus** einschalten.
 
-# Überschrift 1
+# Ohne Gehör, aber mit Stimme: Ein Gehörloser über die Arbeitswelt in der Schweiz
 
-So sieht die grösste Überschrift aus (H1).
 
-## Überschrift 2
 
-Dies ist die Überschrift 2 (H2).
+ Das Interview findet in einem ordentlichen Raum der SP, der mit einem langen Tisch und
+zahlreichen Stühlen ausgestattet ist. Die Räumlichkeiten befinden sich in der Nähe der Zytglogge,
+in Bern. Die Wände sind mit Post-its bedeckt, auf denen Ideen stehen, wie das Gebäude noch
+barrierefreier gestaltet werden könnte – unser Thema, ist sofort spürbar. 
 
-### Überschrift 3
+Christian, die gehörlose
+Person aus der SP, hat sich leider etwas verspätet, weshalb wir die Zeit mit seiner Dolmetscherin
+Tamara überbrücken. In diesem Gespräch erklärt sie uns, dass es einen deutlichen Unterschied
+zwischen der Schweizerischen und der Deutschen Gebärdensprache gibt. Obwohl wir uns im
+Vorfeld informiert haben, sind wir überrascht, wie wenig wir tatsächlich über das Thema wissen.
 
-Die Überschrift 3 ist nicht mehr im Menu verfügbar. Wenn man sie verwenden will, muss man in den `Markdown`-Modus wechseln und dort eine Überschrift mit drei Hastags einleiten: `### Überschrift 3`
+Es wird schnell klar: Die Herausforderung, Barrieren abzubauen, ist schon in diesem Raum prä-
+sent.
+
+
+
+#### Überschrift 4
+
+\### Überschrift 4 
+
+1. Welche Herausforderungen hattest du als gehörlose Person auf deinem Bil-
+   dungsweg?
+
+
+
+
 
 #### Überschrift 4
 
@@ -37,7 +55,7 @@ Am besten einfach alle Formatierungsmöglichkeiten in der Toolbar von `Inhalt` m
 
 ### Fett und Kursiv
 
-Natürlich gibt es auch **fett** und _kursiv_.
+Natürlich gibt es auch **fett** und *kursiv*.
 
 ### Links
 
@@ -47,18 +65,18 @@ Natürlich gibt es auch **fett** und _kursiv_.
 
 > «Zitate können hervorgehoben werden.»
 >
-> _Autor mit [Link zur Quelle](https://www.lilo.blog)_
+> *Autor mit [Link zur Quelle](https://www.lilo.blog)*
 
-Die Quellenangabe muss _kursiv_ geschrieben werden, damit sie als Fusszeile erkannt wird.
+Die Quellenangabe muss *kursiv* geschrieben werden, damit sie als Fusszeile erkannt wird.
 
 ### Liste
 
 So sieht eine Liste aus:
 
-- Nam de isto magna dissensio est.
-- Mihi, inquam, qui te id ipsum rogavi?
-- Haec et tu ita posuisti, et verba vestra sunt.
-- Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia.
+* Nam de isto magna dissensio est.
+* Mihi, inquam, qui te id ipsum rogavi?
+* Haec et tu ita posuisti, et verba vestra sunt.
+* Idem fecisset Epicurus, si sententiam hanc, quae nunc Hieronymi est, coniunxisset cum Aristippi vetere sententia.
 
 ### Nummerierte Liste
 
@@ -89,7 +107,7 @@ Wenn bei einem Bild ein `ALT TEXT` erfasst wird, so wird dieser als Bilduntersch
 
 Eine Horizontale Linie kann man entweder durch ein `<hr>` einfügen oder indem man im `Markdown`-Modus drei Striche `---` einfügt. So sieht die Linie aus:
 
----
+- - -
 
 ## Lead
 
@@ -97,8 +115,8 @@ Eine Horizontale Linie kann man entweder durch ein `<hr>` einfügen oder indem m
 Oft haben Artikel unterhalb des Haupttitels einen einführenden Lead, der etwas grösser dargestellt wird.
 {{</lead>}}
 
-`{{</*lead*/>}}`  
-Ein Lead steht zwischen zwei solchen Blöcken.  
+`{{</*lead*/>}}`\
+Ein Lead steht zwischen zwei solchen Blöcken.\
 `{{</*/lead*/>}}`
 
 ## Kasten
@@ -107,8 +125,8 @@ Ein Lead steht zwischen zwei solchen Blöcken.
 In dieser Box können Texte, Bilder, Videos oder andere Inhalte dargestellt werden.
 {{</box>}}
 
-`{{</*box*/>}}`  
-Der Inhalt einer Box muss wie hier von zwei Blöcken umgeben werden.  
+`{{</*box*/>}}`\
+Der Inhalt einer Box muss wie hier von zwei Blöcken umgeben werden.\
 `{{</*/box*/>}}`
 
 {{<box title="Ausklappbare Box">}}
@@ -121,8 +139,8 @@ Dies eignet sich auch für längere Inhalte.
 Auch Bilder können in eine Box gepackt werden.
 {{</box>}}
 
-`{{</*box title="Ausklappbare Box"*/>}}`  
-Wird ein Titel angegeben, so kann die Box ausgeklappt werden.  
+`{{</*box title="Ausklappbare Box"*/>}}`\
+Wird ein Titel angegeben, so kann die Box ausgeklappt werden.\
 `{{</*/box*/>}}`
 
 ## Video, Audio und andere Medien einbetten
